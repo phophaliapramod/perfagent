@@ -1,0 +1,30 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+thresholds.json
+
+# Python runtime and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated local data
+*.duckdb
+*.duckdb.wal
+*.duckdb.tmp/
+
+# Operating system and editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+~$*
+*.log
+
+# Keep the course document only in docs/
+/PerfAgent_Project_Documentation.docx
